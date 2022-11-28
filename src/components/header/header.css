@@ -1,0 +1,23 @@
+header {
+	padding-top: 5rem;
+}
+
+.header__container {
+	text-align: center;
+}
+
+.cta {
+	margin-top: 3rem;
+	display: flex;
+	gap: 1.5rem;
+	justify-content: center;
+}
+
+.me {
+	margin: 4rem auto 0;
+	background: linear-gradient(to top, rgb(95, 95, 95), transparent);
+	width: 22rem;
+	height: 30rem;
+	border-radius: 12rem 12rem 1rem 1rem;
+	overflow: hidden;
+}
