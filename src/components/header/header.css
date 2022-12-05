@@ -16,8 +16,18 @@ header {
 .me {
 	margin: 4rem auto 0;
 	background: linear-gradient(to top, rgb(95, 95, 95), transparent);
-	width: 22rem;
-	height: 30rem;
+	max-width: 22rem;
+	max-height: 30rem;
 	border-radius: 12rem 12rem 1rem 1rem;
 	overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	.cta a {
+		font-size: 0.8rem;
+	}
 }
